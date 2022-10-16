@@ -25,5 +25,5 @@ A simple Discord bot built using DiscordJS and deployed on [Railway](https://rai
    ```
    
 4. For build, run `npm run build`
-   For development, simply run `node src/index.js`
+   For development, simply run `npm start`
    
