@@ -60,4 +60,7 @@ cron.schedule('00 12 * * 7', function () {
   channel.send(
     `Update time <@&${process.env.ROLE_ID_MENTEES}>! Provide your weekly updates to your respective mentors.`
   );
+}, {
+  scheduled: true,
+  timezone: "Asia/Kolkata"
 });
